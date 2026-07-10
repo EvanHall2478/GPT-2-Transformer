@@ -1,0 +1,3 @@
+training:
+  job_id: 1793   # integer returned by sbatch, e.g. 1234
+  run_id: 1774559345270   # timestamp-based ID printed at the start of train.py output, e.g. 9876543210

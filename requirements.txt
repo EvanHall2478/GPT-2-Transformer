@@ -1,0 +1,10 @@
+# Non-AMD GPU (NVIDIA) or CPU-only: remove the next line AND the '+rocm6.4' suffix from the torch line below.
+--extra-index-url https://download.pytorch.org/whl/rocm6.4
+
+accelerate==1.12.0
+einops==0.8.2
+datasets==4.6.1
+numpy==2.4.2
+torch==2.9.1+rocm6.4   # Non-AMD/CPU: change to torch==2.9.1
+tqdm==4.67.3
+transformers==4.56.2
